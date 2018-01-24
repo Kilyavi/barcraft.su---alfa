@@ -1,0 +1,96 @@
+body {
+	font-size: 1.25rem;
+	background: url(../img/bg-repeat.jpg) center 1800px repeat-y #000;
+	color: #b9b9b9;
+}
+
+@media (min-width: 1200px){
+.container {
+	max-width: 1170px;
+}
+}
+
+.pdiv {
+	border-bottom: 1px solid rgba(255,255,255,.25);
+	margin-top: 20px;
+}
+
+.p-p {
+	font-size: 1rem;
+}
+
+.navbar {
+	padding: 0;
+	height: 60px;
+	margin: 0;
+	border-bottom: 1px solid rgba(255,255,255,.25);
+	background: rgba(255, 255, 255, 0.05);
+	transition: top .15s ease-in-out;
+}
+
+.navbar a {
+	transition: text-shadow 160ms ease, color 160ms ease-in-out;
+}
+
+.navbar li a {
+	color: #b9b9b9;
+	margin: 0.2rem;
+}
+
+.navbar-brand {
+	padding: 0;
+}
+
+.navbar-nav > li > a {
+	line-height: 20px;
+}
+
+.navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+	color: #fff;
+	background-color: transparent;
+}
+
+.nav-header {
+	background: #000 url(../img/bc-header.jpg) center top no-repeat;
+	text-transform: uppercase;
+}
+
+.header {
+	height: 401px;
+	background: #000 url(../img/bc-header.jpg) 50% -60px no-repeat;
+	border-bottom: 1px solid #000;
+}
+
+.main-content h5 {
+	color: #2f8520;
+}
+
+.main-content h2 {
+	color: #2f78c2;
+}
+
+.main-content a {
+	color: #2f78c2;
+}
+
+.main-content a:hover {
+	text-decoration: none;
+	color: #5b99d7;
+}
+
+.article img {
+	margin: 10px 0;
+}
+
+footer {
+	font-size: 1rem;
+	margin: 20px 0;
+}
+
+footer p {
+	margin: 20px 0 0 0;
+}
+
+footer a:hover {
+	text-decoration: none;
+}
